@@ -8,7 +8,7 @@ This container contains the application for merging gene families using two-way 
   ```
 
  2. #### Preparing the data
- Create a data *<my_directory>* with a user defined name. This directory **MUST** contain 3 items: *family_fasta* directory containing all the fasta files for the user-defined gene families, a *family-outgroup-sequences.fa* fasta file containing sequences from all the families and sequences from all the desired outgroups and a *outgroups.list* file listing the names of all the outgroup species (one per line) present in the *family-outgroup-sequences.fa* file. All the outgroup sequence headers in the *family-outgroup-sequences.fa* file **MUST** be prefixed with the respective outgroup species names present in *outgroups.list* file.
+ Create a data  directory *<my_directory>* with a user defined name. This directory **MUST** contain 3 items: *family_fasta* directory containing all the fasta files for the user-defined gene families, a *family-outgroup-sequences.fa* fasta file containing sequences from all the families and sequences from all the desired outgroups and a *outgroups.list* file listing the names of all the outgroup species (one per line) present in the *family-outgroup-sequences.fa* file. All the outgroup sequence headers in the *family-outgroup-sequences.fa* file **MUST** be prefixed with the respective outgroup species names present in *outgroups.list* file.
  
 
  3. #### Running the analysis
