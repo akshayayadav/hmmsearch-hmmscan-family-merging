@@ -1,6 +1,6 @@
-### Tool for HMMSEARCH-HMMSCAN-based family merging
+### Tool for HMMSEARCH-HMMSCAN-based gene-family merging
 
-This container contains the application for merging gene families using two-way HMMSEARCH-HMMSCAN search procedure. Each given family is searched against a combined database of all family sequences and the desired outgroup sequences to find the candidate missing sequences for the family. The candidate missing sequences reverse searched against the combined database of family HMMs and the sequences that find the original family as the best match are predicted missing sequences for the family. Finally, the predicted missing sequences from all the famililies are used to merge families.
+This container contains the application for merging gene-families using a novel two-way HMMSEARCH-HMMSCAN search procedure. Each given family is searched against a combined database of all family sequences and the desired outgroup sequences, to find the candidate missing sequences for the family. The candidate missing sequences reverse searched against the combined database of family HMMs, and the sequences that find the original family as the best match are predicted missing sequences for the family. Finally, the predicted missing sequences from all the families are used to merge under-clustered families.
 
  1. #### Downloading the container
   ```
